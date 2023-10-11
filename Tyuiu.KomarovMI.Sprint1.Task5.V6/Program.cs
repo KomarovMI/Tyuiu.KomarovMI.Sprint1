@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.KomarovMI.Sprint1.Task4.V14.Lib;
+using Tyuiu.KomarovMI.Sprint1.Task5.V6.Lib;
 
-namespace Tyuiu.KomarovMI.Sprint1.Task4.V14
+namespace Tyuiu.KomarovMI.Sprint1.Task5.V6
 {
     class Program
     {
@@ -16,32 +16,30 @@ namespace Tyuiu.KomarovMI.Sprint1.Task4.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*Спринт #1                                                                *");
             Console.WriteLine("* Тема:                                                                   *");
-            Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #14                                                             *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант # 6                                                             *");
             Console.WriteLine("* Выполнил: Комаров Максим Игоревич | ПКТБ-23-1                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные * ");
-            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране                 *");
-            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("*  Написать программу которая решает задачу Пусть k – целое от 1 до 365. * ");
+            Console.WriteLine("*  Присвоить целой переменной n значение 1,2,...,7 в зависимости от того, *");
+            Console.WriteLine("*  на какой день недели (понедельник, вторник,..., воскресенье)           *");
+            Console.WriteLine("*  приходится k-й день невисокосного года, в котором 1 января–понедельник *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x, y;
-            Console.WriteLine("Введите Х:");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите Y:");
-            y = Convert.ToInt32(Console.ReadLine());
+            int k;
+            Console.WriteLine("Введите К от 1 до 365:");
+            k = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Результат:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Ответ Равен:" + ds.Calculate(x, y));
+            int res = Convert.ToInt32(ds.Calculate(k));
+            Console.WriteLine("N="+res);
             Console.ReadKey();
-
-
 
         }
     }
