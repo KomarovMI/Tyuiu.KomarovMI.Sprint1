@@ -25,9 +25,9 @@ namespace Tyuiu.KomarovMI.Sprint1.Review.V2
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("*             2        1       2                                           *");
-            Console.WriteLine("*       Z=cos   = sin(--- )+ y                                             *");
-            Console.WriteLine("*                      x                                                   *");
+            Console.WriteLine("*           sinx + cosy                                                   *");
+            Console.WriteLine("*       Z= ------------- * tg xy                                          *");
+            Console.WriteLine("*           cosx + siny                                                   *");
 
             double x, y;
             Console.WriteLine("Введите Х:");
