@@ -16,7 +16,7 @@ namespace Tyuiu.KomarovMI.Sprint1.Review.V2
             Console.WriteLine("*Спринт #1                                                                *");
             Console.WriteLine("* Тема:                                                                   *");
             Console.WriteLine("* Задание #Review                                                         *");
-            Console.WriteLine("* Вариант # 22                                                            *");
+            Console.WriteLine("* Вариант # 2                                                           *");
             Console.WriteLine("* Выполнил: Комаров Максим Игоревич | ПКТБ-23-1                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
